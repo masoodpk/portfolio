@@ -17,7 +17,7 @@ function Contact() {
   return (
     <div style={{background: "linear-gradient(180deg, #fff, #b3b6ba)"}} className='contact-container xl:mx-[140px] lg:mb-[30px] lg:mx-[50px] rounded-md  pb-[20px] shadow-lg shadow-neutral-300 ' id='Contact'data-aos='zoom-in'>
         <div className="contact-heading flex justify-center ">
-        <h1 className='text-[50px] font-bold my-[30px] text-neutra-500  flex text-neutral-500 '>CONTACT <IoMdContacts  className='ml-[20px] mt-[12px] animate-bounce'/></h1>
+        <h1 className='text-[50px] font-bold my-[30px] text-neutra-500  flex text-neutral-500 '>CONTACTS <IoMdContacts  className='ml-[20px] mt-[12px] animate-bounce'/></h1>
         </div>
 
         
