@@ -22,11 +22,11 @@ function Project() {
         </div>
            
         <div className="project-cards flex  justify-center  align-bottom flex-wrap sm:flex sm:flex-row">
-        <Cards cardPic={cardPic} text={"Netflix Clone"} dtxt={"It is a clone website of Netflix"}/>
-        <Cards cardPic={e_commerce} text={"E commerce"}  dtxt={"Website which allow to buy and sell goods"}  />
-        <Cards cardPic={bookmyShow} text={"Book My Show "} dtxt={"It is a clone website of book my show"}  />
-        <Cards cardPic={spotify} text={"Spotify Clone"}   dtxt={"It is a clone website of Spotify"}   />
-        <Cards cardPic={portfolio} text={"Portfolio"} dtxt={"This is my personal porfolio website"}   />
+        <Cards cardPic={cardPic} text={"Netflix Clone"} dtxt={"It is a clone website of Netflix"}  githubLink="https://github.com/masoodpk/React_Netflix_App"/>
+        <Cards cardPic={e_commerce} text={"E commerce"}  dtxt={"Website which allow to buy and sell goods"}  githubLink="https://github.com/masoodpk/E-commerce-SHOPPY" />
+        <Cards cardPic={bookmyShow} text={"Book My Show "} dtxt={"It is a clone website of book my show"}  githubLink="https://github.com/masoodpk/bookmyshow" />
+        <Cards cardPic={spotify} text={"Spotify Clone"}   dtxt={"It is a clone website of Spotify"}   githubLink="https://github.com/masoodpk/Spotify-clone" />
+        <Cards cardPic={portfolio} text={"Portfolio"} dtxt={"This is my personal porfolio website"}   githubLink="https://github.com/masoodpk/portfolio" />
         
         </div>
         

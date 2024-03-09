@@ -17,16 +17,16 @@ function Contact() {
   return (
     <div style={{background: "linear-gradient(180deg, #fff, #b3b6ba)"}} className='contact-container xl:mx-[140px] lg:mb-[30px] lg:mx-[50px] rounded-md  pb-[20px] shadow-lg shadow-neutral-300 ' id='Contact'data-aos='zoom-in'>
         <div className="contact-heading flex justify-center ">
-        <h1 className='text-[50px] font-bold my-[30px] text-neutra-500  flex text-neutral-500 '>Contact <IoMdContacts  className='ml-[20px] mt-[12px] animate-bounce'/></h1>
+        <h1 className='text-[50px] font-bold my-[30px] text-neutra-500  flex text-neutral-500 '>CONTACTS <IoMdContacts  className='ml-[20px] mt-[12px] animate-bounce'/></h1>
         </div>
 
         
         <div className="social-icons flex justify-center">
           <ul className='flex cursor-pointer mb-[20px] duration-300 '>
-          <li className='bg-white rounded-full  mr-[10px] drop-shadow-md p-3 d hover:bg-neutral-300  duratio-300 '> <a href=""><FaInstagram size={20}  /></a> </li>
-          <li className='bg-white  rounded-full mr-[10px]  drop-shadow-md  p-3 hover:bg-neutral-300 ' >  <a href=""> <FaWhatsapp size={20} /></a></li>
-          <li className='bg-white  rounded-full mr-[10px] drop-shadow-md p-3 hover:bg-neutral-300' > <a href=""><FaLinkedin size={20} /></a></li>
-          <li className='bg-white rounded-full mr-[10px] drop-shadow-md p-3 hover:bg-neutral-300' > <a href=""><DiGithubBadge size={20}  /></a>    </li>
+          <li className='bg-white rounded-full  mr-[10px] drop-shadow-md p-3 d hover:bg-neutral-300  duratio-300 '> <a href="https://www.instagram.com/_masoodpk?igsh=dG5tOTFlYmZkbTZi"><FaInstagram size={20}  /></a> </li>
+          <li className='bg-white  rounded-full mr-[10px]  drop-shadow-md  p-3 hover:bg-neutral-300 ' >  <a href="https://wa.me/919656554444"> <FaWhatsapp size={20} /></a></li>
+          <li className='bg-white  rounded-full mr-[10px] drop-shadow-md p-3 hover:bg-neutral-300' > <a href="https://www.linkedin.com/in/masood-pk-076bb4297"><FaLinkedin size={20} /></a></li>
+          <li className='bg-white rounded-full mr-[10px] drop-shadow-md p-3 hover:bg-neutral-300' > <a href="https://Github.com/masoodpk"><DiGithubBadge size={20}  /></a>    </li>
           </ul>
         </div>
 
@@ -39,7 +39,7 @@ function Contact() {
             </div>
             <div className="email flex gap-2 justify-center mt-2 align-middle mb-[20px]">
                 <MdEmail size={25} className=' drop-shadow-md'/>
-                <h1><span className='font-semibold'>masood@gmail.com</span></h1>
+                <h1><span className='font-semibold'>masoodpk555@gmail.com</span></h1>
             </div>
         </div>
     </div>
