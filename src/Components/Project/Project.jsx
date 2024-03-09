@@ -17,7 +17,7 @@ function Project() {
     <div className='project-container flex flex-col justify-center align-middle text-center mt-[20px] ' id='Project'>
 
         <div className="project-heading mt-10 flex justify-center ">
-        <h1 className='text-[50px] font-bold   text-neutral-500 bg-neutral-200  w-[420px] shadow-md flex shadow-neutral-200 rounded-full mx-[10px] justify-around mb-[20px]'data-aos='fade-right' >PROJECTS <IoFileTrayStacked  size={30}  className='ml-[30px] mt-[25px] animate-bounce' /></h1>
+        <h1 className='text-[50px] font-bold   text-neutral-500 bg-neutral-200  w-[420px] shadow-md flex shadow-neutral-200 rounded-full mx-[10px] py-[10px] justify-around mb-[20px]'data-aos='fade-right' >PROJECTS <IoFileTrayStacked  size={30}  className='ml-[20px] mt-[25px] animate-bounce' /></h1>
         
         </div>
            
