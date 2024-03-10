@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import cardPic from '../../assets/netflix.jpg'
 import Cards from '../Card/Cards'
 import e_commerce from '../../assets/e-commerce.jpg'
-import bookmyShow from '../../assets/bms.png'
+import bookmyShow from '../../assets/bmss.webp'
 import spotify from '../../assets/spotify.jpg'
 import portfolio from '../../assets/port.jpg'
 import { IoFileTrayStacked } from "react-icons/io5";
