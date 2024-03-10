@@ -19,7 +19,7 @@ function Card(props) {
             
           </div>
         <div className="card-text flex justify-center sm:hidden align-middle p-4 ">
-          <h1 className='text-3xl cursor-pointer'> <a href="https://github.com/Binyam888/masood-protfolio/tree/master"><DiGithubBadge/></a></h1>
+          <h1 className='text-3xl cursor-pointer'><a href={props.githubLink}> <DiGithubBadge/></a></h1>
           <h1 className=' mt-1 ml-3'>{props.text}</h1>
         </div>
       </div>
