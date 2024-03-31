@@ -5,7 +5,7 @@ import { motion } from "framer-motion"
 function Hero() {
   const downloadResume = () => {
     // Replace 'path_to_resume_file.pdf' with the actual path to your resume file
-    const resumeUrl = '/src/assets//My Resume.pdf';
+    const resumeUrl = process.env.PUBLIC_URL + '/My Resume.pdf';
     const link = document.createElement('a');
     link.href = resumeUrl;
     link.setAttribute('download', 'My Resume.pdf');
