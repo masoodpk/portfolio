@@ -89,13 +89,6 @@ const navList = [
 
         ))}
        
-      
-
-
-
-
-      
-     
       </ul>
 
   </div>
@@ -115,13 +108,6 @@ const navList = [
            ><span className='drop-shadow-md'>{nav.title}</span></Link>  </li>
 
         ))}
-
-
-       
-
-
-
-
         </ul>
 
        </div>

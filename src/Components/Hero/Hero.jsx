@@ -3,9 +3,19 @@ import pic from '../../assets/masu.jpg'
 import { motion } from "framer-motion"
 
 function Hero() {
+  const downloadResume = () => {
+    // Replace 'path_to_resume_file.pdf' with the actual path to your resume file
+    const resumeUrl = 'path_to_My Resume.pdf';
+    const link = document.createElement('a');
+    link.href = resumeUrl;
+    link.setAttribute('download', 'My Resume.pdf');
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
   return (
     <div className='hero-container flex flex-col justify-center align-middle md:flex md:flex-row  md:justify- md:align-middle bg-   md:h-[50vh] xl:h-[58vh] md:mb-5'id='Home'>
-        <div className="hero-left-section flex flex-col justify-center align-middle  md:flex md:flex-row  md:mt-10 "  >
+      
           <div className="left-demo flex justify-center align-middle lg:mt-[20px] xl:mt-[20px]">
           <motion.div className="hero-image rounded-full  drop-shadow-xl  shadow-lg shadow-slate-700 w-80 h-80 overflow-y-hidden"  >
         
@@ -34,14 +44,15 @@ function Hero() {
          
          > <span >WEB DEVELOPER</span>  <br /> </h1>
          <div className="button">
-         <button className='bg-purple-500 rounded shadow-sm shadow-zinc-400 mt-2 hover:scale-105 duration-300 w-[100px] p-2 text-white animate-pulse'>Hire me</button>
+         <button className='bg-purple-500 rounded shadow-sm shadow-zinc-400 mt-2 hover:scale-105 duration-300 w-[100px] p-2 text-white animate-pulse'  onClick={downloadResume}>Hire me</button>
          </div>
         
        </motion.div>
         
        </div>
 
-    </div>
+
+  
   )
 }
 
