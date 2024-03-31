@@ -1,6 +1,6 @@
 import React from 'react'
 import pic from '../../assets/masu.jpg'
-import MyResume from '/public/My Resume.pdf'
+import MyResume from  '../../public/My Resume.pdf';
 import { motion } from "framer-motion"
 
 function Hero() {
